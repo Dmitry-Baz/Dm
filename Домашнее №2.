@@ -1,0 +1,12 @@
+print("Домашнее задание №2")
+print()
+stage = input() # Ардипитек
+stage_1 = input() # Австралопите́ки
+stage_2 = input() # Парантроп
+stage_3 = input() # Homo_habilis
+stage_4 = input() # Homo_erectus
+stage_5 = input() # Гейдельбергский
+stage_6 = input() # флоресский
+stage_7 = input() # Неандерталец
+stage_8 = input() # Homo_sapiens
+print(stage, stage_1, stage_2, stage_3, stage_4, stage_5, stage_6, stage_7, stage_8, sep="=>")
