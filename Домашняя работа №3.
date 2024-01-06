@@ -1,0 +1,10 @@
+print("Домашняя работа №3")
+print()
+print("Введите длину")
+a = int(input())
+print("Введите ширину")
+b = int(input())
+p = (a + b) * 2
+s = a * b
+print(p, "периметр")
+print(s, "площадь")
