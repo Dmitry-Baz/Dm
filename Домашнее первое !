@@ -1,9 +1,0 @@
-python
-print("Привет, мир!")
-print("Здравствуй,", "мир!")
-print()
-print("желторотый питон", "кличка", "Кай", scp = "-", "возраст", "34 года", scp = "-")
-print()
-print("Ardipithecus", "Австралопите́ки", "Парантроп", "Homo_habilis", 
-      "Homo_erectus", "Гейдельбергский", "флоресский", "Неандерталец", "Homo_sapiens", sep="=>")
-      #https://github.com/Dmitry-Baz/Dm
