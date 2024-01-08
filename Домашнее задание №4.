@@ -1,0 +1,16 @@
+print("Домашнее задание №4.")
+print()
+num = 12345 
+string_num = str(num)  
+mapObject = map(int, string_num)
+separate_digit_list = list(mapObject)
+print(separate_digit_list)
+a = 1
+b = 2
+c = 3
+d = 4
+e = 5
+f = int(d ** e)
+g = int(f * c)
+h = int(g /(a - b))
+print(f, g, h)
