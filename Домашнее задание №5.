@@ -1,0 +1,20 @@
+print("Домашнее задание №5")
+print()
+number = int(input("Enter an integer: "))
+ 
+if number == 0:
+    desc = "zero number"
+elif number < 0:
+    desc = "negative "
+    if number % 2 == 0:
+        desc += "even number"
+    else:
+        desc += "odd number"
+else:
+    desc = "positive "
+    if number % 2 == 0:
+        desc += "even number"
+    else:
+        desc += "odd number"
+ 
+print(desc)
