@@ -1,0 +1,12 @@
+print("Домашнее задание №7.")
+print()
+cassa = int(input()) # нужная сумма для бизнеса
+mike = int(input()) # сумма денег у Макса
+ivan = int(input()) # сумма денег у Ивана
+
+if (mike + ivan >= cassa)  or (mike >= cassa) or (ivan >= cassa):
+  print("Денег хватит - 2")
+if (mike >= cassa):
+  print("Майклу денег хватит - 1")
+else:
+  print("Денег не хватит - 0")
