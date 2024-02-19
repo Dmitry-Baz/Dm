@@ -1,0 +1,24 @@
+Урок 8 Домашняя 1.3.3. Строки. №1.
+slovo = str(input())
+a = slovo[::-1]
+if slovo == a:
+print("yes")
+else:
+print("no")
+или так
+string = input('Введите слово: ')
+string_reversed = reversed(string)
+if string == string[::-1]:
+print("yes")
+else:
+print("no")
+
+
+
+№2.
+a = input()
+while " " in a:
+a= a.replace(" ", " ")
+print(a)
+
+https://github.com/Dmitry-Baz/Dm
