@@ -1,0 +1,37 @@
+print("Домашнее задание №1, списки")
+print()
+n=int(input())
+res=[]
+for i in range(n): # Вводим в "n" строк "n" чисел
+    a=int(input()) # Вводим числа
+    res.append(a)
+    
+print(n)
+
+n = [int(i) for i in a] # Домашняя №2. Списки
+res = a[len(a) - 1]
+for i in range(len(n) - 1, 0, -1):
+n[i] = n[i - 1]
+n[0] = res
+for i in range (len(n)):
+print(n[i], end = " ")
+
+
+m = int(input()) # Домашняя работа №3. Лодки и рыбаки.
+n = int(input())
+a = []
+b = []
+for i in range(n):
+    a.append(int(input()))
+ 
+for x in range(len(a)):
+    if a[x] + min(a) <= m:
+        b += [[a[x], min(a)]]
+        a[x] += m
+        a[a.index(min(a))] += m
+    else:
+        if a[x] > m:
+            continue
+        else:
+            b += [[a[x]]]
+print(len(b))
