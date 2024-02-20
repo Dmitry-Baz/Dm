@@ -1,0 +1,25 @@
+print("Урок №9. Множество. Задание 1.")
+print()
+n = int(input()) # 1<=N<=100000
+numbers = input().split()[:n] # N<=2*10e9
+
+print(len(set(numbers)))
+
+
+
+
+print(“Задание 2”)
+
+n=set(input().split())
+n1=set(input().split())
+print (len(n.intersection(n1)))
+
+
+print(“Задание 3”)
+a=set()
+for i in input().split():
+    if i not in a:
+       a.add(i)
+print('NO')
+else:
+    print('YES')
